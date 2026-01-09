@@ -37,7 +37,6 @@ def compression_ratio(original, compressed):
     return (1 - len(compressed) / len(original)) * 100
 
 
-print("RLE Compressor")
 
 data = input("Input Giriniz: ")
 
