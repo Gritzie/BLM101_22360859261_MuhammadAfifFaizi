@@ -39,7 +39,7 @@ def compression_ratio(original, compressed):
 
 print("RLE Compressor")
 
-data = input("Masukkan teks: ")
+data = input("Input Giriniz: ")
 
 encoded = rle_encode(data)
 decoded = rle_decode(encoded)
